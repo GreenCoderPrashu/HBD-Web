@@ -33,7 +33,10 @@ body{
     padding: 10px 30px;
     border-radius: 15px;
     margin-top: 50px;
+    cursor: pointer;
+    transition: .5s;
 }
 .surprise:hover{
-    color: #e27ecb;
+    color: #ffffff;
+    background-color: black;
 }
