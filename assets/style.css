@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #e27ecb;
+}
+.home{
+    display: block;
+    justify-items: center;
+    margin-top: 50px;
+}
+.home h1{
+    font-size: 50px;
+}
+.home p{
+    font-size: 20px;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    animation: 3s rotate linear infinite;
+}
+@keyframes rotate {
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.surprise{
+    padding: 10px 30px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.surprise:hover{
+    color: #e27ecb;
+}
