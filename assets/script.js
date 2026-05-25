@@ -15,3 +15,14 @@ typeBtn.addEventListener('click',() => {
         typewriter();
     }
 });
+function typewriter(){
+    if(i<passage.length){
+        typing.innerHTML += passage.charAt(i);
+        i++;
+        setTimeout(typewriter,80);
+    }else{
+    write = false;
+    i=0;
+    type=""
+}
+}
