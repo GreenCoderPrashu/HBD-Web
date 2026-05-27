@@ -1,6 +1,9 @@
-@media screen and (max-width: 780px){
+@media screen and (max-width: 650px) {
 .logo{
     height: 50px;
     width: 50px;
+}
+.home h1{
+    font-size: 10px;
 }
 }
