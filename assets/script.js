@@ -19,7 +19,7 @@ function typewriter(){
     if(i<passage.length){
         typing.innerHTML += passage.charAt(i);
         i++;
-        setTimeout(typewriter,80);
+        setTimeout(typewriter,50);
     }else{
     write = false;
     i=0;
