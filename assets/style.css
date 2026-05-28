@@ -8,6 +8,8 @@ html{
 body{
     background: #e27ecb;
 }
+/* home-container */
+
 .home{
     display: block;
     justify-items: center;
@@ -39,4 +41,16 @@ body{
 .surprise:hover{
     color: #ffffff;
     background-color: black;
+}
+/* wish-container */
+
+.wish-container{
+    background: #c9afbc;
+    margin: 50px 20px;
+    padding: 50px;
+    height: 150px;
+    border-radius: 30px;
+}
+.wish{
+    font-size: 40px;
 }
