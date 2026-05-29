@@ -5,7 +5,7 @@ function surprise(){
 //
 const typing = document.getElementById('wish');
 const typeBtn= document.getElementById('surprise');
-const passage = "Wish You Many More Happy Returns Of The Day Friend... Stay Happy With All Your Favoriote Things! May This Year Bring You Joy,Succes,And Advanture... And I Always Wish You To Be Happy...";
+const passage = "";
 let type=""
 let write = false;
 let i=0;
@@ -25,4 +25,9 @@ function typewriter(){
     i=0;
     type=""
 }
+}
+//
+function thanks(){
+    document.getElementById('wish-container').style.display ='none';
+    document.getElementById('page1').style.display ='block';
 }
