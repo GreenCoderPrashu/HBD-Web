@@ -29,5 +29,5 @@ function typewriter(){
 //
 function thanks(){
     document.getElementById('wish-container').style.display ='none';
-    document.getElementById('page1').style.display ='block';
+    document.getElementById('page1').style.display ='flex';
 }
