@@ -67,8 +67,11 @@ body{
     color: #ffffff;
     background-color: black;
 }
+.page1{
+    justify-content: center;
+}
 .image-card{
-    height: 550px;
+    height: 600px;
     width:500px;
     background: #ffffff;
     margin: 50px;
