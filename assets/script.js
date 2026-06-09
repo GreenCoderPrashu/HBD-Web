@@ -34,11 +34,6 @@ function thanks(){
 const  TqBtn= document.getElementById('thank-you');
 TqBtn.addEventListener('click',() =>{
     setTimeout(() =>{
-        card1.style.display = 'block';
-    },1000);
-});
-TqBtn.addEventListener('click',() =>{
-    setTimeout(() =>{
         card1.style.display = 'none';
         card2.style.display = 'block';
     },3000);
