@@ -74,7 +74,7 @@ body{
     height: 600px;
     width:500px;
     background: #ffffff;
-    margin: 50px;
+    margin: 20px;
 }
 .card-img{
     height: 400px;
@@ -91,10 +91,14 @@ body{
 }
 .next{
     padding: 10px 30px;
-    margin-top:80px;
+    margin-top:10px;
     position: relative;
     left: 40%;
     font-weight: 600;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.png{
+    height: 100px;
+    width: 100px;
 }
